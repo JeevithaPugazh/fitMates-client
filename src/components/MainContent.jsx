@@ -1,10 +1,15 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import AchievementTracker from './AchievementTracker';
+import TabbedNavigation from './TabbedNavigation'; 
 const MainContent = () => {
+   
+
   return (
     <div className="flex-1 p-4">
       {/* Add your main content here */}
-      <h1 className="text-2xl font-bold">Main Content</h1>
+      <AchievementTracker />
+      <TabbedNavigation />
+        
     </div>
   );
 };
